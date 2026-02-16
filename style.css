@@ -1,0 +1,67 @@
+/* Mitchel Parliament
+  200620552
+  Checker issues resolved
+  This one was a lot of fun to mess around with. I need to be shown how to push and commit please as I can't get it to set up properly.
+ 
+*/
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #b33000; 
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+header p {
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #000000;
+}
+body {
+  font-family: sans-serif, Arial, Helvetica;
+  line-height: 1.6;
+  color: #000000;
+  background: #f3f0ed;
+}
+
+
+main {
+  display: flex;
+  margin: 0 auto;
+  padding: 1rem;
+}
+main section {
+  flex: auto;
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 10px;
+}
+aside {
+    flex: auto;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 10px;
+}
+article strong{
+  color: #b33000;
+  font-weight: 700;
+
+}
+
+.cover {
+  max-width: 100%;
+  width: 50%;  
+  display: block;
+  margin: 1rem;
+}
+
+/*
+footer {
+?? not sure what I'm doing to this
+
+}
+
+ https://www.w3schools.com/css/default.asp used to help find certain 
+*/
